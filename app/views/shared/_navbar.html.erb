@@ -1,37 +1,32 @@
-  <div id="navbar">
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="/">
-          <%= image_tag('logonavbar 2.jpg') %>
-          </a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <div>
-            <ul class="nav navbar-nav pull-right">
-              <li>
-                <a href="#Equipe" class="">L'équipe</a>
-              </li>
-              <li>
-                <a href="#Patho" class="">Les pathologies</a>
-              </li>
-              <li>
-                <a href="#Urgences" class="">Urgences de la main</a>
-              </li>
-              <li>
-                <a href="#Infos" class="">Infos Pratiques</a>
-              </li>
-              <li>
-                <a href="#contact" class="">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>
+  <div class="navbar-wagon navbar-wagon-fixed">
+  <!-- Logo -->
+  <a href="/" class="navbar-wagon-brand">
+    <%= image_tag('logonavbar 2.jpg') %>
+  </a>
+
+  <!-- Right Navigation -->
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
+
+    <!-- Text link -->
+    <a href="" class="navbar-wagon-item navbar-wagon-link" style="letter-spacing: 2px; color: #272f8c">Pathologies</a>
+
+    <!-- Text link -->
+    <a href="" class="navbar-wagon-item navbar-wagon-link" style="letter-spacing: 2px; color: #272f8c">Urgence de la main</a>
+
+    <a href="" class="navbar-wagon-item navbar-wagon-link" style="letter-spacing: 2px; color: #272f8c">Prendre RDV</a>
+
   </div>
+
+  <!-- Dropdown appearing on mobile only -->
+  <div class="navbar-wagon-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li><a href="#">Some mobile link</a></li>
+        <li><a href="#">Other one</a></li>
+        <li><a href="#">Other one</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
