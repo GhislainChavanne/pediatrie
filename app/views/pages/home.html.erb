@@ -2,7 +2,7 @@
 <div class="wraper">
   <div class="banner" style="background-image: url('<%= image_path('clinique.gif') %>');">
     <div class="banner-content">
-    <h2 style="background-color: white; color: #272f8c; opacity: 0.6; padding: 20px; border-radius: 2px; box-shadow: 0 1px 2px rgba(0,0,0,0.07);">LA CLINIQUE DE LA MAIN DE PARIS MONT LOUIS</h2>
+    <h2 style="background-color: white; color: #272f8c; opacity: 0.6; padding: 20px; border-radius: 2px; box-shadow: 0 1px 2px rgba(0,0,0,0.07);">LA CLINIQUE DE LA MAIN DE <br> PARIS MONT LOUIS</h2>
     </div>
   </div>
 </div>
@@ -10,42 +10,49 @@
 <div class="wraper" style="background-color: #e8ecf0; margin-top: 0px; margin-bottom: 20px; padding-top: 30px; padding-bottom: 30px;">
   <h1 class="text-center" style="margin-bottom: 30px;">L'équipe chirurgicale</h1>
   <div class="container">
-    <h4 class="equipe-presentation" style="text-align: justify;">Elle est composée de 5 chirurgiens de la main, spécialisés en microchirurgie, chirurgie reconstructrice et réparatrice des pathologies de la main et du poignet. La prise en charge des patients est globale par les consultations, les interventions chirurgicales, les soins post-opératoires, le plateau technique permettant la réalisation des examens complémentaires. <br>
+    <h4 class="equipe-presentation" style="text-align: justify; font-weight: lighter; font-size: 16px;">Elle est composée de 5 chirurgiens de la main, spécialisés en microchirurgie, chirurgie reconstructrice et réparatrice des pathologies de la main et du poignet. La prise en charge des patients est globale par les consultations, les interventions chirurgicales, les soins post-opératoires, le plateau technique permettant la réalisation des examens complémentaires. <br>
     Cette prise en charge spécifique du patient se fait exclusivement sur le même site, à la Clinique du Mont-Louis.
     Tous les praticiens ont eu un parcours hospitalo-universitaire, et sont activement impliqués dans l’enseignement et la recherche clinique.</h4>
     <div class="row text-center">
       <div class="col-md-4 col-xs-12">
-        <a data-toggle="modal" data-target=".bs-example-modal-lg1" cursor="pointer">
+        <a data-toggle="modal" data-target=".bs-example-modal-lg1" style="cursor: pointer; text-decoration: none; color: #272f8c">
         <div class="card" class="text-center">
           <h4>Professeur<br>OBERLIN Christophe</h4>
         </div>
         </a>
       </div>
       <div class="col-md-4 col-xs-12">
-      <a data-toggle="modal" data-target=".bs-example-modal-lg2" cursor="pointer">
+      <a data-toggle="modal" data-target=".bs-example-modal-lg2" style="cursor: pointer; text-decoration: none; color: #272f8c">
         <div class="card" id="text-center">
           <h4>Docteur<br>BELKHEYAR Zoubir</h4>
         </div>
       </a>
       </div>
       <div class="col-md-4 col-xs-12">
-      <a data-toggle="modal" data-target=".bs-example-modal-lg3" cursor="pointer">
+      <a data-toggle="modal" data-target=".bs-example-modal-lg3" style="cursor: pointer; text-decoration: none; color: #272f8c">
         <div class="card" id="text-center">
           <h4>Docteur<br>BRUN Magali</h4>
         </div>
       </a>
       </div>
       <div class="col-md-4 col-xs-12">
-      <a data-toggle="modal" data-target=".bs-example-modal-lg4" cursor="pointer">
+      <a data-toggle="modal" data-target=".bs-example-modal-lg4" style="cursor: pointer; text-decoration: none; color: #272f8c">
         <div class="card" id="text-center">
           <h4>Docteur<br>LACOSTE Sophie</h4>
         </div>
       </a>
       </div>
       <div class="col-md-4 col-xs-12">
-      <a data-toggle="modal" data-target=".bs-example-modal-lg5" cursor="pointer">
+      <a data-toggle="modal" data-target=".bs-example-modal-lg5" style="cursor: pointer; text-decoration: none; color: #272f8c">
         <div class="card" id="text-center">
           <h4>Docteur<br>TOUAM Chabane</h4>
+        </div>
+      </a>
+      </div>
+      <div class="col-md-4 col-xs-12">
+      <a href="https://www.doctolib.fr/cabinet-medical/paris/centre-d-imagerie-medicale-faidherbe-mont-louis" target="_blank" style="cursor: pointer; text-decoration: none;">
+        <div class="card-booking" id="text-center">
+          <h4>Prendre Rendez-Vous</h4>
         </div>
       </a>
       </div>
@@ -57,10 +64,13 @@
 <div class="modal fade bs-example-modal-lg1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-      <h4>Professeur des universités. Chirurgien de référence dans le domaine de la chirurgie des paralysies, de réputation internationale dans le domaine de la chirurgie du plexus brachial.
-      Activités : chirurgie du plexus brachial, des paralysies du membre supérieur et du membre inférieur, chirurgie de la main et du poignet
-      Secrétariat : 01 43 56 54 42
-      Jour de consultation : Lundi après-midi / 14h – 18h</h4>
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="font-size: 30px; color: #008489"><i class="fa fa-times" aria-hidden="true"></i></button>
+      <h5>Professeur Oberlin Christophe <br> <br>
+      Professeur des universités. <br> <br>
+      Chirurgien de référence dans le domaine de la chirurgie des paralysies, de réputation internationale dans le domaine de la chirurgie du plexus brachial. <br>
+      Activités : chirurgie du plexus brachial, des paralysies du membre supérieur et du membre inférieur, chirurgie de la main et du poignet <br> <br>
+      <strong>Secrétariat</strong> : 01 43 56 54 42 <br> <br>
+      <strong>Jour de consultation</strong> : Lundi après-midi / 14h – 18h</h5>
     </div>
   </div>
 </div>
@@ -68,10 +78,12 @@
 <div class="modal fade bs-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-      <h4>Dr Zoubir Belkheyar : chirurgien de la main, ancien Chef de Clinique des Hôpitaux de Paris, chargé d’enseignement DIU de chirurgie de la main et du membre supérieur.
-      Activités : chirurgie du plexus brachial, des paralysies du membre supérieur et du membre inférieur, chirurgie de la main et du poignet, microchirurgie
-      Secrétariat : 01 43 56 54 42
-      Jour de consultation : jeudi toute la journée</h4>
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="font-size: 30px; color: #008489"><i class="fa fa-times" aria-hidden="true"></i></button>
+      <h5>Dr Zoubir Belkheyar <br> <br>
+      Chirurgien de la main, ancien Chef de Clinique des Hôpitaux de Paris, chargé d’enseignement DIU de chirurgie de la main et du membre supérieur. <br> <br>
+      <strong>Activités</strong> : chirurgie du plexus brachial, des paralysies du membre supérieur et du membre inférieur, chirurgie de la main et du poignet, microchirurgie <br> <br>
+      <strong>Secrétariat</strong> : 01 43 56 54 42
+      <strong>Jour de consultation</strong> : jeudi toute la journée</h5>
     </div>
   </div>
 </div>
@@ -79,10 +91,12 @@
 <div class="modal fade bs-example-modal-lg3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-      <h4>Dr Magali Brun : chirurgien de la main, ancienne Chef de Clinique des Hôpitaux de Paris, chargée d’enseignement DIU de chirurgie de la main et du membre supérieur.
-      Activités : chirurgie de la main et du poignet, urgences de la main et traumatologie, microchirurgie.
-      Secrétariat : 01 43 56 54 52
-      Jour de consultation : lundi matin 9h-12h30</h4>
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="font-size: 30px; color: #008489"><i class="fa fa-times" aria-hidden="true"></i></button>
+      <h5>Dr Magali Brun <br> <br>
+      Chirurgien de la main, ancienne Chef de Clinique des Hôpitaux de Paris, chargée d’enseignement DIU de chirurgie de la main et du membre supérieur. <br> <br>
+      <strong>Activités</strong> : chirurgie de la main et du poignet, urgences de la main et traumatologie, microchirurgie. <br> <br>
+      <strong>Secrétariat</strong> : 01 43 56 54 52 <br> <br>
+      <strong>Jour de consultation</strong> : lundi matin 9h-12h30</h5>
     </div>
   </div>
 </div>
@@ -90,10 +104,12 @@
 <div class="modal fade bs-example-modal-lg4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-      <h4>Dr Sophie Lacoste : chirurgien de la main, praticien attaché au CHU Hôpital Saint-Antoine, ancienne Chef de Clinique des Hôpitaux de Paris.
-      Activités : chirurgie de la main et du poignet, urgences de la main et traumatologie, microchirurgie.
-      Secrétariat :  01 43 56 54 52
-      Jour de consultation : mercredi matin 9h-12h30</h4>
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="font-size: 30px; color: #008489"><i class="fa fa-times" aria-hidden="true"></i></button>
+      <h5>Dr Sophie Lacoste <br> <br>
+      Chirurgien de la main, praticien attaché au CHU Hôpital Saint-Antoine, ancienne Chef de Clinique des Hôpitaux de Paris. <br> <br>
+      <strong>Activités</strong> : chirurgie de la main et du poignet, urgences de la main et traumatologie, microchirurgie. <br> <br>
+      <strong>Secrétariat</strong> :  01 43 56 54 52 <br> <br>
+      <strong>Jour de consultation</strong> : mercredi matin 9h-12h30</h5>
     </div>
   </div>
 </div>
@@ -101,10 +117,12 @@
 <div class="modal fade bs-example-modal-lg5" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-      <h4>Dr Chabane Touam : chirurgien de la main et du membre supérieur, chirurgie des nerfs, microchirurgie, chirurgie plastique et reconstruction au niveau des membres. Ancien chirurgien des Hôpitaux parisiens. Chargé d’enseignement DIU de microchirurgie et de chirurgie de la main.
-      Activités : chirurgie et pathologies de la main et du membre supérieur.
-      Secrétariat : 01 43 56 54 52
-      Jour de consultation : mercredi – jeudi après-midi 14h-18h</h4>
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="font-size: 30px; color: #008489"><i class="fa fa-times" aria-hidden="true"></i></button>
+      <h5>Dr Chabane Touam <br> <br>
+      Chirurgien de la main et du membre supérieur, chirurgie des nerfs, microchirurgie, chirurgie plastique et reconstruction au niveau des membres. Ancien chirurgien des Hôpitaux parisiens. Chargé d’enseignement DIU de microchirurgie et de chirurgie de la main. <br> <br>
+      <strong>Activités</strong> : chirurgie et pathologies de la main et du membre supérieur. <br> <br>
+      <strong>Secrétariat</strong> : 01 43 56 54 52 <br> <br>
+      <strong>Jour de consultation</strong> : mercredi – jeudi après-midi 14h-18h</h5>
     </div>
   </div>
 </div>
