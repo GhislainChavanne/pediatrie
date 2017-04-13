@@ -67,10 +67,10 @@ p {
   margin-bottom: 20px;
   border-radius: 2px;
   box-shadow: 0 1px 2px rgba(0,0,0,0.07);
- img {
-  width: 100%;
-  opacity: 0.8;
-}
+  img {
+    width: 100%;
+    opacity: 0.8;
+  }
 }
 
 .map {
@@ -78,6 +78,7 @@ p {
   border: 4px solid #e8ecf0;
   border-radius: 3px;
   margin: auto;
+  margin-top: 20px;
   }
 }
 
@@ -102,4 +103,29 @@ p {
     height: 100%;
   }
 }
+
+.etablissement {
+  display: flex;
+  align-items: center;
+}
+
+.card-etablissement {
+  background-color: white;
+  padding: 40px;
+}
+
+.card-etablissement2 {
+  height: 469px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .card-etablissement2 {
+  display: none;
+  }
+}
+
 
