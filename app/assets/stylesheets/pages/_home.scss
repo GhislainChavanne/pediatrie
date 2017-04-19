@@ -46,7 +46,6 @@ p {
   clear: left;
   border-radius: 2px;
   box-shadow: 0 1px 2px rgba(0,0,0,0.07);
-  margin-bottom: 20px;
   h4 {
     text-align: justify;
   }
@@ -64,12 +63,11 @@ p {
 
 
 .pic {
-  margin-bottom: 20px;
-  border-radius: 2px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+  margin-top: -25px;
   img {
-    width: 100%;
+    width: 70%;
     opacity: 0.8;
+    margin-left: 15%;
   }
 }
 
@@ -132,3 +130,35 @@ p {
 }
 
 
+.name {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  margin-bottom: 20px;
+  img {
+    width: 70px;
+    border-radius: 50px;
+    margin-right: 12px;
+  }
+}
+
+.card-hover {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  color: #272f8c;
+  border-radius: 5px;
+}
+
+.card:hover .card-hover {
+  opacity: 0.9;
+}

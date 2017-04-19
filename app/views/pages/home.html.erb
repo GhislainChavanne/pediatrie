@@ -16,42 +16,57 @@
     Tous les praticiens ont eu un parcours hospitalo-universitaire, et sont activement impliqués dans l’enseignement et la recherche clinique.</h4>
     <div class="row">
       <div class="col-md-12 pic">
-        <%= image_tag('clinique.png') %>
+        <%= image_tag('team.png') %>
       </div>
     </div>
     <div class="row text-center">
       <div class="col-md-4 col-xs-12">
         <a data-toggle="modal" data-target=".bs-example-modal-lg1" style="cursor: pointer; text-decoration: none; color: #272f8c">
-        <div class="card btn-hover2" class="text-center">
+        <div class="card" class="text-center">
           <h4>Professeur<br>OBERLIN Christophe</h4>
+            <div class="card-hover">
+              <i class="fa fa-plus-square-o" aria-hidden="true"></i> <span style="letter-spacing: 1px;">Plus d'infos</span>
+            </div>
         </div>
         </a>
       </div>
       <div class="col-md-4 col-xs-12">
       <a data-toggle="modal" data-target=".bs-example-modal-lg2" style="cursor: pointer; text-decoration: none; color: #272f8c">
-        <div class="card btn-hover2" id="text-center">
+        <div class="card" id="text-center">
           <h4>Docteur<br>BELKHEYAR Zoubir</h4>
+            <div class="card-hover">
+              <i class="fa fa-plus-square-o" aria-hidden="true"></i> <span style="letter-spacing: 1px;">Plus d'infos</span>
+            </div>
         </div>
       </a>
       </div>
       <div class="col-md-4 col-xs-12">
       <a data-toggle="modal" data-target=".bs-example-modal-lg3" style="cursor: pointer; text-decoration: none; color: #272f8c">
-        <div class="card btn-hover2" id="text-center">
+        <div class="card" id="text-center">
           <h4>Docteur<br>BRUN Magali</h4>
+            <div class="card-hover">
+              <i class="fa fa-plus-square-o" aria-hidden="true"></i> <span style="letter-spacing: 1px;">Plus d'infos</span>
+            </div>
         </div>
       </a>
       </div>
       <div class="col-md-4 col-xs-12">
       <a data-toggle="modal" data-target=".bs-example-modal-lg4" style="cursor: pointer; text-decoration: none; color: #272f8c">
-        <div class="card btn-hover2" id="text-center">
+        <div class="card" id="text-center">
           <h4>Docteur<br>LACOSTE Sophie</h4>
+            <div class="card-hover">
+              <i class="fa fa-plus-square-o" aria-hidden="true"></i> <span style="letter-spacing: 1px;">Plus d'infos</span>
+            </div>
         </div>
       </a>
       </div>
       <div class="col-md-4 col-xs-12">
       <a data-toggle="modal" data-target=".bs-example-modal-lg5" style="cursor: pointer; text-decoration: none; color: #272f8c">
-        <div class="card btn-hover2" id="text-center">
+        <div class="card" id="text-center">
           <h4>Docteur<br>TOUAM Chabane</h4>
+            <div class="card-hover">
+              <i class="fa fa-plus-square-o" aria-hidden="true"></i> <span style="letter-spacing: 1px;">Plus d'infos</span>
+            </div>
         </div>
       </a>
       </div>
@@ -71,12 +86,15 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="font-size: 30px; color: #008489"><i class="fa fa-times" aria-hidden="true"></i></button>
-      <h5><strong>Professeur Oberlin Christophe</strong> <br> <br>
-      Professeur des universités. <br> <br>
+      <div class="name">
+        <%= image_tag('pic.png') %>
+        <h5><strong>Dr Zoubir Belkheyar</strong></h5>
+      </div>
+      <h5>Professeur des universités. <br> <br>
       Chirurgien de référence dans le domaine de la chirurgie des paralysies, de réputation internationale dans le domaine de la chirurgie du plexus brachial. <br>
       Activités : chirurgie du plexus brachial, des paralysies du membre supérieur et du membre inférieur, chirurgie de la main et du poignet <br> <br>
-      <strong>Secrétariat</strong> : 01 43 56 54 42 <br> <br>
-      <strong>Jour de consultation</strong> : Lundi après-midi / 14h – 18h</h5>
+      <i class="fa fa-phone-square" aria-hidden="true"></i> - 01.43.56.54.42 <br> <br>
+      <i class="fa fa-calendar" aria-hidden="true"></i> - Lundi après-midi / 14h – 18h</h5>
       <div class="text-center" style="margin-top: 15px;">
       <a href="https://www.mondocteur.fr/chirurgien-orthopedique/paris-11eme/oberlin-christophe.html" class="navbar-wagon-item btn-blue btn-hover text-center" style="letter-spacing: 2px; text-decoration: none;"; target="_blank">Prendre Rendez-Vous</a>
       </div>
@@ -88,11 +106,14 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="font-size: 30px; color: #008489"><i class="fa fa-times" aria-hidden="true"></i></button>
-      <h5><strong>Dr Zoubir Belkheyar</strong> <br> <br>
-      Chirurgien de la main, ancien Chef de Clinique des Hôpitaux de Paris, chargé d’enseignement DIU de chirurgie de la main et du membre supérieur. <br><br>
+      <div class="name">
+        <%= image_tag('pic.png') %>
+        <h5><strong>Dr Zoubir Belkheyar</strong></h5>
+      </div>
+      <h5>Chirurgien de la main, ancien Chef de Clinique des Hôpitaux de Paris, chargé d’enseignement DIU de chirurgie de la main et du membre supérieur. <br><br>
       <strong>Activités</strong> : chirurgie du plexus brachial, des paralysies du membre supérieur et du membre inférieur, chirurgie de la main et du poignet, microchirurgie <br><br>
-      <strong>Secrétariat</strong> : 01 43 56 54 42 <br><br>
-      <strong>Jour de consultation</strong> : jeudi toute la journée</h5>
+      <i class="fa fa-phone-square" aria-hidden="true"></i> - 01.43.56.54.42 <br><br>
+      <i class="fa fa-calendar" aria-hidden="true"></i> - Jeudi toute la journée</h5>
       <div class="text-center" style="margin-top: 15px;">
       <a href="https://www.mondocteur.fr/chirurgien-orthopedique/paris-18eme/belkheyar-zoubir.html" class="navbar-wagon-item btn-blue btn-hover text-center" style="letter-spacing: 2px; text-decoration: none;"; target="_blank">Prendre Rendez-Vous</a>
       </div>
@@ -104,11 +125,14 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="font-size: 30px; color: #008489"><i class="fa fa-times" aria-hidden="true"></i></button>
-      <h5><strong>Dr Magali Brun</strong> <br> <br>
-      Chirurgien de la main, ancienne Chef de Clinique des Hôpitaux de Paris, chargée d’enseignement DIU de chirurgie de la main et du membre supérieur. <br> <br>
+      <div class="name">
+        <%= image_tag('pic.png') %>
+        <h5><strong>Dr Magali Brun</strong></h5>
+      </div>
+      <h5>Chirurgien de la main, ancienne Chef de Clinique des Hôpitaux de Paris, chargée d’enseignement DIU de chirurgie de la main et du membre supérieur. <br> <br>
       <strong>Activités</strong> : chirurgie de la main et du poignet, urgences de la main et traumatologie, microchirurgie. <br> <br>
-      <strong>Secrétariat</strong> : 01 43 56 54 52 <br> <br>
-      <strong>Jour de consultation</strong> : lundi matin 9h-12h30</h5>
+      <i class="fa fa-phone-square" aria-hidden="true"></i> - 01.43.56.54.52 <br> <br>
+      <i class="fa fa-calendar" aria-hidden="true"></i> - Lundi matin 9h-12h30</h5>
       <div class="text-center" style="margin-top: 15px;">
       <a href="https://www.doctolib.fr/chirurgien-orthopediste/paris/magali-brun-paris" class="navbar-wagon-item btn-blue btn-hover text-center" style="letter-spacing: 2px; text-decoration: none;"; target="_blank">Prendre Rendez-Vous</a>
       </div>
@@ -120,11 +144,14 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="font-size: 30px; color: #008489"><i class="fa fa-times" aria-hidden="true"></i></button>
-      <h5><strong>Dr Sophie Lacoste</strong> <br> <br>
-      Chirurgien de la main, praticien attaché au CHU Hôpital Saint-Antoine, ancienne Chef de Clinique des Hôpitaux de Paris. <br> <br>
+      <div class="name">
+        <%= image_tag('pic.png') %>
+        <h5><strong>Dr Sophie Lacoste</strong></h5>
+      </div>
+      <h5>Chirurgien de la main, praticien attaché au CHU Hôpital Saint-Antoine, ancienne Chef de Clinique des Hôpitaux de Paris. <br> <br>
       <strong>Activités</strong> : chirurgie de la main et du poignet, urgences de la main et traumatologie, microchirurgie. <br> <br>
-      <strong>Secrétariat</strong> :  01 43 56 54 52 <br> <br>
-      <strong>Jour de consultation</strong> : mercredi matin 9h-12h30</h5>
+      <i class="fa fa-phone-square" aria-hidden="true"></i> - 01.43.56.54.52 <br> <br>
+      <i class="fa fa-calendar" aria-hidden="true"></i> - Mercredi matin 9h-12h30</h5>
       <div class="text-center" style="margin-top: 15px;">
       <a href="https://www.doctolib.fr/chirurgien-orthopediste/bagnolet/sophie-lacoste" class="navbar-wagon-item btn-blue btn-hover text-center" style="letter-spacing: 2px; text-decoration: none;"; target="_blank">Prendre Rendez-Vous</a>
       </div>
@@ -136,11 +163,14 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="font-size: 30px; color: #008489"><i class="fa fa-times" aria-hidden="true"></i></button>
-      <h5><strong>Dr Chabane Touam</strong> <br> <br>
-      Chirurgien de la main et du membre supérieur, chirurgie des nerfs, microchirurgie, chirurgie plastique et reconstruction au niveau des membres. Ancien chirurgien des Hôpitaux parisiens. Chargé d’enseignement DIU de microchirurgie et de chirurgie de la main. <br> <br>
+      <div class="name">
+        <%= image_tag('pic.png') %>
+        <h5><strong>Dr Chabane Touam</strong></h5>
+      </div>
+      <h5>Chirurgien de la main et du membre supérieur, chirurgie des nerfs, microchirurgie, chirurgie plastique et reconstruction au niveau des membres. Ancien chirurgien des Hôpitaux parisiens. Chargé d’enseignement DIU de microchirurgie et de chirurgie de la main. <br> <br>
       <strong>Activités</strong> : chirurgie et pathologies de la main et du membre supérieur. <br> <br>
-      <strong>Secrétariat</strong> : 01 43 56 54 52 <br> <br>
-      <strong>Jour de consultation</strong> : mercredi – jeudi après-midi 14h-18h</h5>
+      <i class="fa fa-phone-square" aria-hidden="true"></i> - 01.43.56.54.52 <br> <br>
+      <i class="fa fa-calendar" aria-hidden="true"></i> - Mercredi – jeudi après-midi 14h-18h</h5>
       <div class="text-center" style="margin-top: 15px;">
       <a href="https://www.doctolib.fr/chirurgien-orthopediste/saint-ouen/chabane-touam" class="navbar-wagon-item btn-blue btn-hover text-center" style="letter-spacing: 2px; text-decoration: none;"; target="_blank">Prendre Rendez-Vous</a>
       </div>
