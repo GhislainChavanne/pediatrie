@@ -23,19 +23,27 @@ p {
   letter-spacing: 2px;
 }
 
+.team-all {
+  background-color: white;
+  clear: left;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+}
+
 .card {
   background-color: white;
   padding: 20px;
   clear: left;
   border-radius: 2px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.07);
-  margin-bottom: 20px;
   height: 100px;
   position: relative;
   display: flex;
   align-items: center;
+  margin-top: 20px;
+  border: 2px solid #272f8c;
   h4 {
     width: 100%;
+    font-size: 15px;
   }
 }
 
@@ -66,7 +74,6 @@ p {
   margin-top: -25px;
   img {
     width: 70%;
-    opacity: 0.8;
     margin-left: 15%;
   }
 }
