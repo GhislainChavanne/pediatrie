@@ -1,7 +1,7 @@
 .banner {
   color: white;
   text-align: center;
-  height: 70vh;
+  height: 100vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   background-repeat: no-repeat;
@@ -13,7 +13,11 @@
 }
 
 .banner-content {
+  h1 {
+    line-height: 22px;
+  }
   img {
   opacity: 0.8;
+  margin-bottom: 40px;
   }
 }
