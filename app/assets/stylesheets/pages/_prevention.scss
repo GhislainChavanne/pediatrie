@@ -1,0 +1,46 @@
+.panel-default {
+  border: none;
+}
+
+.panel-default .panel-heading {
+  background-color: #e8ecf0;
+}
+
+.panel-heading {
+    background-color: #e8ecf0;
+  padding: 10px;
+  padding-left: 15px;
+  border: none;
+  .panel-title{
+    background-color: #272f8c;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 70%;
+    margin: auto;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+}
+
+.panel {
+    background-color: #e8ecf0;
+  box-shadow: none;
+}
+
+.panel-body {
+  background-color: #e8ecf0;
+  width: 70%;
+  margin: auto;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #2d2a4e;
+  text-align: justify;
+  font-weight: bolder;
+}
+
+.mark {
+  background-color: #efd0bb;
+}

@@ -22,85 +22,15 @@ h5 {
  letter-spacing: 2px;
 }
 
+h6 {
+ letter-spacing: 2px;
+}
+
 p {
   letter-spacing: 2px;
   font-weight: bolder;
 }
 
-.team-all {
-  background-color: #e8ecf0;
-}
-
-.title-background {
-  margin: auto;
-  padding-top: 20px;
-  padding-bottom:20px;
-  margin-bottom: 20px;
-  .line {
-    background-color: #fe8d3d;
-    height: 10px;
-    margin-top: -10px;
-    margin: auto;
-    width: 45%;
-    opacity: 0.3;
-  }
-  .line2 {
-    background-color: #fe8d3d;
-    height: 10px;
-    margin-top: -10px;
-    margin: auto;
-    width: 80%;
-    opacity: 0.3;
-  }
-  .line3 {
-    background-color: #fe8d3d;
-    height: 10px;
-    margin-top: -10px;
-    margin: auto;
-    width: 30%;
-    opacity: 0.3;
-  }
-  .line4 {
-    background-color: #fe8d3d;
-    height: 10px;
-    margin-top: -10px;
-    margin: auto;
-    width: 22%;
-    opacity: 0.3;
-  }
-}
-
-.card {
-  background-color: white;
-  padding: 20px;
-  clear: left;
-  border-radius: 2px;
-  height: 100px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  margin-top: 20px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.07);
-  h4 {
-    width: 100%;
-    font-size: 15px;
-    line-height: 20px;
-    font-weight: bolder;
-  }
-}
-
-
-.equipe-presentation {
-  background-color: white;
-  padding: 35px;
-  clear: left;
-  border-radius: 2px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.07);
-  width: 100%;
-  h4 {
-    text-align: justify;
-  }
-}
 
 .modal-content {
   padding: 30px;
@@ -110,17 +40,12 @@ p {
     right: 15px;
     top: 10px;
   }
-}
-
-
-.pic {
-  margin-top: -25px;
-  background-color: white;
-  img {
-    width: 70%;
-    margin-left: 15%;
+  h6 {
+    text-align: justify;
+    line-height: 140%;
   }
 }
+
 
 .map {
   iframe {
@@ -152,50 +77,6 @@ p {
   }
 }
 
-.etablissement {
-  display: flex;
-  align-items: center;
-}
-
-.card-etablissement {
-  border-radius: 2px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.07);
-  background-color: white;
-  padding: 40px;
-}
-
-.card-etablissement2 {
-    border-radius: 2px;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
-    height: 521px;
-    background-color: white;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-@media screen and (max-width: 992px) {
-  .card-etablissement2 {
-  display: none;
-  }
-}
-
-
-.name {
-  display: flex;
-  flex-flow: row;
-  align-items: center;
-  margin-bottom: 20px;
-  img {
-    width: 70px;
-    border-radius: 50px;
-    margin-right: 12px;
-  }
-}
 
 .card-hover {
   display: flex;

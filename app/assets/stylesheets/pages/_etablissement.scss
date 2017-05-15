@@ -1,0 +1,34 @@
+.etablissement {
+  display: flex;
+  align-items: center;
+}
+
+.card-etablissement {
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+  background-color: white;
+  padding: 40px;
+  h6 {
+    line-height: 130%;
+  }
+}
+
+.card-etablissement2 {
+    border-radius: 2px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+    height: 480px;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+@media screen and (max-width: 992px) {
+  .card-etablissement2 {
+  display: none;
+  }
+}
