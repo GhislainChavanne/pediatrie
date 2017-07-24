@@ -56,6 +56,11 @@ p {
 }
 
 .part {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  justify-content: space-around;
+    margin-bottom: 20px;
   img {
     width: 60%;
     margin: auto;
@@ -63,6 +68,11 @@ p {
 }
 
 .part2 {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  justify-content: space-around;
+    margin-bottom: 20px;
   img {
     width: 30%;
     margin: auto;
